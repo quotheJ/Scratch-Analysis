@@ -8,4 +8,4 @@ https://scratch.mit.edu/projects/1188307876
 **結果**
 多項式近似（3次）が最も単純な式で妥当な誤差に収まった。
 
-[完成したプロジェクト]()
+[完成したプロジェクト:](https://scratch.mit.edu/projects/1188323709/)
