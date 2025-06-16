@@ -1,4 +1,3 @@
-# from scipy.interpolate import lagrange
 import scipy.interpolate as scipl
 import numpy as np
 import matplotlib.pyplot as plt
@@ -60,12 +59,13 @@ y_lis =[
 230,
 ]
 
-
+# 昇順にソート
 x_lis_np = np.array(x_lis)
 y_lis_np = np.array(y_lis)
 sort_idx = np.argsort(x_lis_np)
 x_lis_sorted = x_lis_np[sort_idx]
 y_lis_sorted = y_lis_np[sort_idx]
+
 
 x = np.arange(x_lis_sorted[0], x_lis_sorted[-1]+0.1, 0.1)
 f_sci=scipl.CubicSpline(x_lis_sorted,y_lis_sorted)
