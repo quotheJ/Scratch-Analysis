@@ -80,9 +80,9 @@ f_sci=scipl.CubicSpline(x_lis_sorted,y_lis_sorted)
 
 coeffs = np.polyfit(x_lis_sorted, y_lis_sorted, deg=len(x_lis_sorted)-21)
 poly5 = np.poly1d(coeffs)
-print(poly5)
+print(f"poly5: {poly5}")
 
-coeffs = np.polyfit(x_lis_sorted, y_lis_sorted, deg=len(x_lis_sorted)-21)
+coeffs = np.polyfit(x_lis_sorted, y_lis_sorted, deg=len(x_lis_sorted)-22)
 poly4 = np.poly1d(coeffs)
 print(poly4)
 
