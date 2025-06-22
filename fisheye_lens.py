@@ -89,7 +89,7 @@ calculate_formula(5)
 calculate_formula(4)
 calculate_formula(3)
 calculate_formula(2)
-
+calculate_formula(1)
 
 plt.xlabel('x [-]')
 plt.ylabel('y [-]')
